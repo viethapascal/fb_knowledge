@@ -6,9 +6,11 @@ Definition in facebook ad
 
 3. Event Source Group:
 
-3.1. OmniChannel is a cross-channel content strategy that organizations use to improve their user experience. Rather than working in parallel, communication channels and their support resources are designed and orchestrated to cooperate.
+3.1. OmniChannel is a cross-channel content strategy that organizations use to improve their user experience. 
+Rather than working in parallel, communication channels and their support resources are designed and orchestrated to cooperate.
 
-3.2. Facebook Event Source Groups are data sources which allow you to combine facebook pixel, pages and offline event sets. You can also assign ad account or people with an Event Source Group. By combining these data sources, facebook provides  omni-channel analytics. View omni-channel analytics to measure activity across multi-channels and event sources, including apps, websites, Facebook Pages, Messenger bots or more. Even if someone researches your product on mobile devices but ends up purchasing the product from your website on a computer, you can understand the actions people take across different channels.
+3.2. Facebook Event Source Groups are data sources which allow you to combine facebook pixel, pages and offline event sets. 
+You can also assign ad account or people with an Event Source Group. By combining these data sources, facebook providesomni-channel analytics. View omni-channel analytics to measure activity across multi-channels and event sources, including apps, websites, Facebook Pages, Messenger bots or more. Even if someone researches your product on mobile devices but ends up purchasing the product from your website on a computer, you can understand the actions people take across different channels.
 
 3.3. When created Event source group, you will see date ranges and be able to define "segment" to filter the desired audience. Event source group MUST NOT contain a Facebook page if you want to create custom audience.
 
