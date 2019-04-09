@@ -1,0 +1,25 @@
+Definition in facebook ad
+
+1. Ad Account: Whenever creating an ad on facebook, you will also open an advertising account. After opening an advertising account, you can give  more people access to the account so that they can also manage your ad
+
+2. Business Manager is a Facebook tool that helps organize and manage your business. You can accept coworkers 
+
+3. Event Source Group:
+
+3.1. OmniChannel is a cross-channel content strategy that organizations use to improve their user experience. Rather than working in parallel, communication channels and their support resources are designed and orchestrated to cooperate.
+
+3.2. Facebook Event Source Groups are data sources which allow you to combine facebook pixel, pages and offline event sets. You can also assign ad account or people with an Event Source Group. By combining these data sources, facebook provides  omni-channel analytics. View omni-channel analytics to measure activity across multi-channels and event sources, including apps, websites, Facebook Pages, Messenger bots or more. Even if someone researches your product on mobile devices but ends up purchasing the product from your website on a computer, you can understand the actions people take across different channels.
+
+3.3. When created Event source group, you will see date ranges and be able to define "segment" to filter the desired audience. Event source group MUST NOT contain a Facebook page if you want to create custom audience.
+
+3.4. Active users(unique users) section shows your active users or the number of unique people who use your product, for different lengths and periods of time. When unique users can't be determined, unique devices or cookies are used instead.
+
+3.5. There are three type of App Events: Automatically Logged Events, Standard Events that facebook has created for you, and Custom Events, event you create that are specific to your app. For Web facebook recommend triggering the page view event on all pages to ensure accurate user accounts and session durations.
+	- For Standard Events: https://developers.facebook.com/docs/app-events/getting-started-app-events-web#predefined-events
+	- For Automatically Logged Events: https://developers.facebook.com/docs/app-events/getting-started-app-events-web#auto-events
+	- Custom Events: After created Custom Events, you can add code to log the desired event. eg:
+	function onButtonClick() {
+	  // Add this to a button's onclick handler
+	  FB.AppEvents.logEvent("my_app_event");
+	}
+
