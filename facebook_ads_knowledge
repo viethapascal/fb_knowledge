@@ -14,7 +14,7 @@ Definition in facebook ad
 
 3.4. Active users(unique users) section shows your active users or the number of unique people who use your product, for different lengths and periods of time. When unique users can't be determined, unique devices or cookies are used instead.
 
-3.5. There are three type of App Events: Automatically Logged Events, Standard Events that facebook has created for you, and Custom Events, event you create that are specific to your app. For Web facebook recommend triggering the page view event on all pages to ensure accurate user accounts and session durations.
+3.5. There are three type of App Events on Web channel: Automatically Logged Events, Standard Events that facebook has created for you, and Custom Events, event you create that are specific to your app. For Web facebook recommend triggering the page view event on all pages to ensure accurate user accounts and session durations.
 	- For Standard Events: https://developers.facebook.com/docs/app-events/getting-started-app-events-web#predefined-events
 	- For Automatically Logged Events: https://developers.facebook.com/docs/app-events/getting-started-app-events-web#auto-events
 	- Custom Events: After created Custom Events, you can add code to log the desired event. eg:
@@ -22,4 +22,8 @@ Definition in facebook ad
 	  // Add this to a button's onclick handler
 	  FB.AppEvents.logEvent("my_app_event");
 	}
-
+3.6. App Events on mobile channels: log events launch app and activate app method
+3.7. App Events on Messenger: Sends message to Messenger Bot or clicks a button within a message. Note: People who receive message but don't engage with them are not counted as active
+3.8. App Events on Facebook game: Launches the app on game on Facebook
+3.9. App Events on Facebook Page: Interact with post on Page or receives or reads messages with the Page
+3.10. Event Sources group: any combination of the channels above
